@@ -1,0 +1,33 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+body {
+    background-color: azure;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.input-texto{
+    background-color: azure;
+    border: none;
+}
+
+.informacao {
+    width: 228px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    
+}
+

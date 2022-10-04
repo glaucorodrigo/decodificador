@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decodifique!</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="/js/script.js"></script>
+    <title>Encriptador</title>
 
-</head>
-<header>
-
-</header>
-<body>
-    <section>
-
-    </section>
-    <section>
-
-
-    </section>
     
+</head>
+<body>
+    <header>
+        <img src="/imagens/pngwing.com.png" class="logo">
+    </header>
+    <main>
+    <section class="caixa">
+            <textarea class="input-texto" placeholder="digite seu texto" id="input-texto" cols="30" rows="15"></textarea>
+            <p class="informacao">Apenas letras minúsculas e sem acentos</p>
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+    </section>
+            <img src="/imagens/Mobile encryption-cuate.png" class="imagem-meio">
+    <section class="caixa">
+            <textarea id="mensagem" cols="30" rows="15"></textarea>
+                <div class="botoes">
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+    </section>
+    </main>
 </body>
 </html>
