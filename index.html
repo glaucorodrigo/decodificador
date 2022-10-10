@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>Encriptador</title>
-   
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Codificador</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <header>
-        <img src="/imagens/pngwing.com.png" class="logo">
-    </header>
-    <main>
-    <section class="caixa">
-            <textarea class="input-texto" placeholder="digite seu texto" id="input-texto" cols="30" rows="15"></textarea>
-            <p class="informacao">Apenas letras minúsculas e sem acentos</p>
-                <div class="botoes">
-                    <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
-                    <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
-                </div>
-    </section>
-            <img src="/imagens/Mobile encryption-cuate.png" class="imagem-meio">
-    <section class="caixa">
-            <textarea id="mensagem" cols="30" rows="15"></textarea>
-                <div class="botoes">
-                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
-                </div>
-    </section>
-    </main>
-    <script type="text/javascript" src="/script.js"></script>
+	<main>
+			<section>
+				<textarea class="caixa" cols="30" rows="10"  placeholder="Clique aqui e digite seu texto:" required></textarea>
+					<div class="informacao">
+						<h2>Apenas letras minusculas e sem acento</h2>
+					</div>
+
+				<div class="botoes">
+					<button class="crip" onclick="btnEncriptar()">Criptografar</button>
+					<button class="descrip" onclick="btnDesencriptar()">Descriptografar</button>
+				</div>
+			</section>	
+            <img src="/imagens/Mobile encryption-cuate.png" alt="">
+			<section>					
+				<textarea class="segundacaixa" cols="30" rows="10" placeholder="Seu texto critografado aparecerá aqui"></textarea>
+				<button class="copiar" onclick="btnCopiar()">Copiar</button>
+			</section>
+	</main>
+		<footer>
+			<p class="rodape">Desenvolvido por Glauco Rodrigo</p>
+			<a href="https://www.linkedin.com/in/glauco-rodrigo/"><img class="icone1" src="/imagens/linkedin icone.png"></a>
+		</footer>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
