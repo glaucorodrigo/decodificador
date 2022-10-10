@@ -205,59 +205,29 @@ footer {
 }
 
 @media screen and (max-width: 740px){
-	.figura, , .crip, .descrip,.infomacao, .figura{ 
 
-		width: auto;
-	}
-	body{
-		background: #836FFF;
-	}
-	.crip: hover{
-		transform: scale3d(1.5, 1.5, 1.5);
-		transition: 500ms;
-
-	}
-
-	.caixa{
-		width: 60%;
-		
-	}
-	.segundacaixa{
-		width: 90%;
-		position: absolute;
-		margin: 0 30px;
-	}
-
-	.copiar{
-		margin: 0 10px;
-		left: 700px;
-		top: 500px;
-		position: absolute;
-		
-	}
-	h3{
-		text-align: center;
-		left: 650px;
-		top: 350px;
-		position: absolute;
-	}
-	h4{
-		position: relative;
-		left: 50px;
-		top: 310px;
-		text-align: center;
-
-	}
-	p.rodape{
-		left: 100%;
-		position: relative;
-		display: flex;
-		font-size: 80%;
-	}
-	.icone1,.icone2{
-		position: relative;
-		left: 100%;
-
-	}
+.main{
+	display: flex;
+	flex-direction: column;
+	
 }
 
+.caixa{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: auto;
+	margin-left: 10px;
+
+}
+.botoes{
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	height: auto;
+	margin-left: 10px;
+}
+.imagem-central{
+	display: none;
+}
+}
