@@ -1,37 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Codificador</title>
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Decodificador</title>
 </head>
 <body>
-	<main>
-			<section>
-				<textarea class="caixa" cols="30" rows="10"  placeholder="Clique aqui e digite seu texto:" required></textarea>
-					<div class="informacao">
-						<h2>Apenas letras minusculas e sem acento</h2>
-					</div>
+ <main>
+    <header>
+        <img src="/imagens/pngwing2com.png" alt="pasta-code" class="pasta-code">
+    </header>
+	<div class="caixa1">
+    <p class="atencao">&#10154;Atenção: Somente letras minúsculas e sem acento!</p>
+    <textarea  id="texto-principal" cols="90" rows="20" placeholder="escreva algum  texto..."></textarea>
+    <button class="button-codificar" onclick ="btncriptografar()">Codificar</button>
+    <button class="button-decodificador" onclick ="btndescriptografar()">Decodificar</button>
+	</div>
+    <diviv class="caixa2">
+        <textarea id="texto-secundario" cols="60" rows="30" placeholder="Seu texto criptografado aparecerá aqui"></textarea>
+        <button class="button-copiar" onclick="btntextocopiado()">Copiar</button>
+    </div>
+ </main>
 
-				<div class="botoes">
-					<button class="crip" onclick="btnEncriptar()">Criptografar</button>
-					<button class="descrip" onclick="btnDesencriptar()">Descriptografar</button>
-				</div>
-			</section>	
-            <img src="/imagens/Mobile encryption-cuate.png"  class="imagem-central" alt="imagem-central">
-			<section>					
-				<textarea class="segundacaixa" cols="30" rows="10" placeholder="Seu texto critografado aparecerá aqui"></textarea>
-				<button class="copiar" onclick="btnCopiar()">Copiar</button>
-			</section>
-	</main>
-		<footer>
-			<p class="rodape">Desenvolvido por Glauco Rodrigo</p>
-			<a href="https://www.linkedin.com/in/glauco-rodrigo/"><img class="icone1" src="/imagens/linkedin icone.png"></a>
-		</footer>
-	<script type="text/javascript" src="script.js"></script>
+ <footer class="rodape">
+    <p>Desenvolvido por Glauco Rodrigo</p>
+	<a href="https://www.linkedin.com/in/glauco-rodrigo/" target="_blank"><img class="icone1" src="/imagens/linkedin icone.png" ></a>
+ </footer>
+ <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
