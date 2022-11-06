@@ -6,9 +6,9 @@
 <h1>Criptografia de texto</h1>
 
 <h2> Tecnologias utilizadas</h2>
-<ul>HTML</ul>
-<ul>CSS</ul>
-<ul>javascript</ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>javascript</li>
 
 <h3>Objetivo com o projeto</h3>
 
