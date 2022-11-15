@@ -16,7 +16,8 @@ Avançar mais nas técnicas com Javascript e CSS.
 
 <h3> Acesse o deploy abaixo para testar a funcionalidade</h3>
 
-encriptador-glauco.netlify.app
+https://encriptador-glauco.netlify.app/
+
 
 
 ![image](https://user-images.githubusercontent.com/43080774/195467530-7975f39f-c758-46a6-87f2-a3f1bedc70b7.png)
