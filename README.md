@@ -1,14 +1,12 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/491bf8c8-db64-4d6d-afa3-a704fcac0fd2/deploy-status)](https://app.netlify.com/sites/encriptador-glauco/deploys)
-
-
-
 
 <h1>Criptografia de texto</h1>
 
 <h2> Tecnologias utilizadas</h2>
+<ul>
 <li>HTML</li>
 <li>CSS</li>
 <li>javascript</li>
+</ul>
 
 <h3>Objetivo com o projeto</h3>
 
