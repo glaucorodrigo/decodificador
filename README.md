@@ -5,7 +5,7 @@
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-<li>javascript</li>
+<li>JavaScript</li>
 </ul>
 
 <h3>Objetivo com o projeto</h3>
